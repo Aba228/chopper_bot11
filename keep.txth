@@ -1,0 +1,584 @@
+ // '978984551684661278'
+
+    // bot.application.commands.create({
+    //     name: 'help',
+    //     description: 'Присылает инструкции косательно бота'
+    // }, '993543814633508957')
+    //     .catch(console.error);
+
+    // bot.application.commands.create({
+    //     name: 'helpmusic',
+    //     description: 'Присылает инструкции косательно музыки у данного бота',
+    // }, '993543814633508957')
+    //     .catch(console.error);
+
+    // bot.application.commands.create({
+    //     name: 'obamna',
+    //     description: 'Присылает любого Обамну по выбору',
+    //     options: [
+
+    //         {
+    //             name: "chooseobamna",
+    //             description: "Выберите Обамну",
+    //             type: "STRING",
+    //             choices: [
+    //                 {
+    //                     name: "obamna1",
+    //                     value: "obamna1"
+    //                 },
+
+    //                 {
+    //                     name: "obamna2",
+    //                     value: "obamna2"
+    //                 },
+
+    //                 {
+    //                     name: "littleobamnas",
+    //                     value: "littleobamnas"
+    //                 },
+
+    //                 {
+    //                     name: "obamnastyle",
+    //                     value: "obamnastyle"
+    //                 }
+    //             ],
+    //             required: true
+    //         }
+
+    //     ]
+
+    // }, '993543814633508957')
+    //     .catch(console.error);
+
+    // bot.application.commands.create({
+    //     name: 'rickroll',
+    //     description: 'Рикроллит кого-либо',
+    //     options: [
+
+    //         {
+    //             name: "personmention",
+    //             description: "Упомяните человека через `@`",
+    //             type: "USER",
+    //             required: true
+    //         }
+
+    //     ]
+    // }, '993543814633508957')
+    //     .catch(console.error);
+
+    // bot.application.commands.create({
+    //     name: 'complimentthechopper',
+    //     description: 'Вы похвалите Chopper`а',
+    // }, '993543814633508957')
+    //     .catch(console.error);
+
+    // bot.application.commands.create({
+    //     name: 'warn',
+    //     description: 'Вы дадите человеку предупреждение',
+    //     options: [
+
+    //         {
+    //             name: "personwarn",
+    //             description: "Напишите причину предупреждения",
+    //             type: "STRING",
+    //             required: true
+    //         },
+
+    //         {
+    //             name: "chooseperson",
+    //             description: "Упомяните человека через `@`, которому вы даёте предупреждение",
+    //             type: "USER",
+    //             required: true
+    //         }
+
+
+    //     ]
+    // }, '993543814633508957')
+    //     .catch(console.error);
+
+    // bot.application.commands.create({
+    //     name: 'kick',
+    //     description: 'Вы выгоните человека',
+    //     options: [
+
+    //         {
+    //             name: "personkick",
+    //             description: "Напишите id юзера",
+    //             type: "USER",
+    //             required: true
+    //         },
+
+    //         {
+    //             name: "kickreson",
+    //             description: "Напишите причину кика",
+    //             type: "STRING",
+    //             required: true
+    //         }
+    //     ]
+    // }, '993543814633508957')
+    //     .catch(console.error);
+
+    // bot.application.commands.create({
+    //     name: 'ban',
+    //     description: 'Вы забаните человека',
+    //     options: [
+
+    //         {
+    //             name: "personban",
+    //             description: "Напишите id юзера",
+    //             type: "USER",
+    //             required: true
+    //         },
+
+    //         {
+    //             name: "banreason",
+    //             description: "Напишите причину бана",
+    //             type: "STRING",
+    //             required: true
+    //         }
+    //     ]
+    // }, '993543814633508957')
+    //     .catch(console.error);
+
+    // bot.application.commands.create({
+    //     name: 'unban',
+    //     description: 'Вы разбаните человека',
+    //     options: [
+
+    //         {
+    //             name: "personunban",
+    //             description: "Напишите id юзера",
+    //             type: "USER",
+    //             required: true
+    //         },
+
+    //         {
+    //             name: "unbanreason",
+    //             description: "Напишите id юзера",
+    //             type: "STRING",
+    //             required: true
+    //         },
+    //     ]
+    // }, '993543814633508957')
+    //     .catch(console.error);
+
+    // bot.application.commands.create({
+    //     name: 'information',
+    //     description: 'Вы получите информацию о пользователе',
+    //     options: [
+
+    //         {
+    //             name: "personinfo",
+    //             description: "Упомяните пользователя через `@`",
+    //             type: "USER",
+    //             required: true
+    //         }
+    //     ]
+    // }, '993543814633508957')
+    //     .catch(console.error);
+
+            // console.log("В канале " + message.channel.name);
+        // console.log("Юзер " + message.author.username)
+        // console.log("Прислал сообщение: " + cont)
+
+        // if (cont == "const1") {
+        //     message.channel.send({
+        //         embeds: [{
+        //             title: "Пункт 1.",
+        //             description: "Не спамить и не флудить во всех канала кроме <#988153203679985694> ",
+        //             color: "GREEN",
+        //             tts: true
+        //         }]
+
+        //     })
+        // }
+
+        // if (cont == "const2") {
+        //     message.channel.send({
+        //         embeds: [{
+        //             title: "Пункт 2.",
+        //             description: "Желательно не сокращать сообщения, за слишком частое употребление сокращение можно получить разнообразное наказание.  ",
+        //             color: "GREEN"
+        //         }]
+
+        //     })
+        // }
+
+
+        // if (cont == "const3") {
+        //     message.channel.send({
+        //         embeds: [{
+        //             title: "Пункт 3.",
+        //             description: "Каналы могут создавать только <@&979004666572574731>   и я <@&978993917057974372> . ",
+        //             color: "GREEN"
+        //         }]
+
+        //     })
+        // }
+
+
+        // if (cont == "const4") {
+        //     message.channel.send({
+        //         embeds: [{
+        //             title: "Пункт 4.",
+        //             description: "Никто не имеет право отключать мут у людей на сервере просто так, также никто не имеет права давать мут просто так, это делают  <@&979004666572574731> с указанием объективной причины. ",
+        //             color: "GREEN"
+        //         }]
+
+        //     })
+        // }
+
+
+        // if (cont == "const5") {
+        //     message.channel.send({
+        //         embeds: [{
+        //             title: "Пункт 5.",
+        //             description: "Будьте добры не злоупотреблять матами, за большое количество матов - мут. Можно до 2 в одном сообщении, а если сообщения идут подряд то 8. ",
+        //             color: "GREEN"
+        //         }]
+
+        //     })
+        // }
+
+
+        // if (cont == "const6") {
+        //     message.channel.send({
+        //         embeds: [{
+        //             title: "Пункт 6.",
+        //             description: "Удалять, добавлять правила, банить могут только <@&979004666572574731> , но для этого нужно проголосовать в <#978994976878907473>, если 4 голоса ~за~ то удаляем, добавляем или баним. Для всех остальных участников есть чат <#979007930902921276> , высказывайте там свои мысли и предложения по поводу работы сервера, его участников и т.д.  <@&979004666572574731>   будут с этим разбираться.",
+        //             color: "GREEN"
+        //         }]
+
+        //     })
+        // }
+
+
+        // if (cont == "const7") {
+        //     message.channel.send({
+        //         embeds: [{
+        //             title: "Пункт 7.",
+        //             description: "Любое моё серьёзное решение или решение одного <@&979004666572574731>   другие <@&979004666572574731> могут оспорить и если 4 будут против, то решение отменяется, голосуем в <#978994976878907473> . ",
+        //             color: "GREEN"
+        //         }]
+
+        //     })
+        // }
+
+
+        // if (cont == "const8") {
+        //     message.channel.send({
+        //         embeds: [{
+        //             title: "Пункт 8.",
+        //             description: "Нужно уважать чужие вкусы.",
+        //             color: "GREEN"
+        //         }]
+
+        //     })
+        // }
+
+
+        // if (cont == "const9") {
+        //     message.channel.send({
+        //         embeds: [{
+        //             title: "Пункт 9.",
+        //             description: "Для некоторых тем общения есть специальные чаты, <#978996793675251763> для голосований, а <#978984552129245236>  для включения музыки, не стоит общаться в обычных чатах на ту тему, для которой есть специальный канал. За первое нарушение предупреждение, за второе мут.  ",
+        //             color: "GREEN"
+        //         }]
+
+        //     })
+        // }
+
+
+        // if (cont == "const10") {
+        //     message.channel.send({
+        //         embeds: [{
+        //             title: "Пункт 10.",
+        //             description: "В категорию ИГРЫ добавлять только каналы по многопользовательским онлайн играм, одиночные не считаются.",
+        //             color: "GREEN"
+        //         }]
+
+        //     })
+        // }
+
+
+        // if (cont == "const11") {
+        //     message.channel.send({
+        //         embeds: [{
+        //             title: "Пункт 11.",
+        //             description: "Если создаёшь голосование или опрос, то отмечай всех через <@everyone> в первом сообщении, последующие (если они есть, пиши без упоминаний), а если участвуешь в опросе, то отвечай на сообщение опрашивающего. ",
+        //             color: "GREEN"
+        //         }]
+
+        //     })
+        // }
+
+
+        // if (cont== "const12") {
+        //     message.channel.send({
+        //         embeds: [{
+        //             title: "Пункт 12.",
+        //             description: "Очевидно, что за многократное нарушение правил мут будет выдаваться на длительный срок.",
+        //             color: "GREEN"
+        //         }]
+
+        //     })
+        // }
+
+
+        // if (cont == "const13") {
+        //     message.channel.send({
+        //         embeds: [{
+        //             title: "Пункт 13.",
+        //             description: "Если человек пишет длинные сообщения или опросы, не перебивайте его. Просто подождите пока он закончит или перейдите в другой чат, их тут целых 3! ",
+        //             color: "GREEN"
+        //         }]
+
+        //     })
+        // }
+
+
+        // if (cont == "const14") {
+        //     message.channel.send({
+        //         embeds: [{
+        //             title: "Пункт 14.",
+        //             description: "По достижении 15 уровня <@&979005171268997130> будет повышаться до <@&979320124442030100>, эта роль имеет чуть больше прав и возможностей.",
+        //             color: "GREEN"
+        //         }]
+
+        //     })
+        // }
+
+        // if (cont == "const15") {
+        //     message.channel.send({
+        //         embeds: [{
+        //             title: "Пункт 15.",
+        //             description: "",
+        //             color: "GREEN"
+        //         }]
+
+        //     })
+        // }
+
+        // if (cont == "const16") {
+        //     message.channel.send({
+        //         embeds: [{
+        //             title: "Пункт 16.",
+        //             description: "Строго запрещается упоминать человека в место того, чтобы ответить ему на сообщение (в основном касается <@!981450350328422500>).",
+        //             color: "GREEN"
+        //         }]
+
+        //     })
+        // }
+
+        // if (/s/i.test(cont)) {
+        //     message.delete();
+        // }
+
+          if (cont == ">Покажи бабу Маню!") {
+            for (let i = 0; i <= 60; i++) {
+                message.channel.send({
+                    files: ["ШИРОКОРОТИК.PNG"]
+                })
+            }
+        }
+
+         if (cont == ">Верни Алине киндер пингви") {
+            message.channel.send({
+                embeds: [{
+                    description: "<@!976919462722818068> вот твой пингви!",
+                    image: {
+                        url: "https://megatitan.ru/upload/iblock/e7c/w7d8o39yj300a7urb9mqhlmoo79y63a5.jpg",
+                        proxyURL: "https://megatitan.ru/upload/iblock/e7c/w7d8o39yj300a7urb9mqhlmoo79y63a5.jpg",
+                        height: 500,
+                        width: 500
+                    },
+                    color: "GREEN"
+                }]
+
+            })
+        }
+
+        if (cont == ">R") {
+            message.channel.send({
+                embeds: [{
+                    image: {
+                        url: "https://c.tenor.com/CWgfFh7ozHkAAAAC/rick-astly-rick-rolled.gif",
+                        proxyURL: "https://c.tenor.com/CWgfFh7ozHkAAAAC/rick-astly-rick-rolled.gif",
+                        height: 500,
+                        width: 500
+                    },
+                    color: "RANDOM"
+                }]
+            })
+        }
+
+           if (cont == "канибоба") {
+            message.reply("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNTUu5Lprr0h4oqJi-elnDV_eY_HMzUsXpZMP2IEq1rvJH7YY5H8VdIgVaF8MKuLDPcsI&usqp=CAU");
+            message.reply({
+                embeds: [{
+                    title: "Пизда.",
+                    description: "В твоём звезда.",
+                    color: "GREEN",
+                    tts: true
+                }]
+
+            })
+        }
+
+          if (cont == ">Конститут, Денис обидел тебя") {
+            message.channel.send({
+                embeds: [{
+                    title: "Я обиделся...",
+                    description: "Лично к нему неновисть не испытываю, но такие люди должны гореть в аду!",
+                    color: "GREEN"
+                }]
+
+            });
+
+        }
+
+
+        if (cont == "Канибоба") {
+            message.reply("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNTUu5Lprr0h4oqJi-elnDV_eY_HMzUsXpZMP2IEq1rvJH7YY5H8VdIgVaF8MKuLDPcsI&usqp=CAU");
+            message.reply({
+                embeds: [{
+                    title: "Пизда.",
+                    description: "В твоём звезда.",
+                    color: "GREEN",
+                    tts: true
+                }]
+
+            })
+        }
+
+         if (cont == ">Ответ бабе мане!") {
+            message.reply({
+                embeds: [{
+                    title: "Окие, бротик",
+                    description: "Баба Маня идите нахуй! <@!692057178072285214>",
+                    color: "GREEN"
+                }]
+
+            });
+            message.channel.send("<@!692057178072285214>");
+
+        }
+
+            if (cont == ">Конститут, ты харош") {
+            message.channel.send({
+                embeds: [{
+                    description: "<@" + message.author.id + ">" + " спасибо, бротик",
+                    color: "GREEN"
+                }]
+
+            });
+
+        }
+
+        if (cont == "Test") {
+            message.channel.send({
+
+                image: {
+                    url: "https://sun1.41039.userapi.com/s/v1/ig2/r9g-ShrlYPgdHSAbSZ1dpnfgZmz7ZbCMNwgkTmJThLIBE3OHRMKydBYv8fhtOod0tJT1Y70neNiDMSuumpV-ao5A.jpg?size=200x200&quality=96&crop=241,1,1437,1437&ava=1",
+                    proxyURL: "https://vk.com/maria.reznichenko",
+                    height: 500,
+                    width: 500
+                },
+                color: "GREEN"
+            })
+        }
+
+        if (cont == "Представься!") {
+
+            const a = [0, 1, 2]
+            message.channel.send({
+                content: a[Math.floor(Math.random() * a.length)].toString()
+            })
+
+        }
+
+         if (interaction.commandName == 'ping') {
+                const msg = await interaction.channel.send(`**Получение данных вебсокета**...`);
+                let pingEmbed = {
+                    "color": "WHITE",
+                    "description": `${`Задержка бота: ${Math.floor(msg.createdAt - interaction.createdAt)}мс\n Задержка Discord Api: ${bot.ws.ping}мс\n`}`,
+                    "footer": {
+                        "text": `Информацию собрал ${bot.user.username}`
+                    }
+                };
+
+                await interaction.reply({ embeds: [pingEmbed] });
+
+                msg.delete();
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            const { Client, Intents } = require("discord.js");
+const client = new Discord.Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES, Intents.FLAGS.GUILD_VOICE_STATES] });
+const { Player } = require("discord-player");
+
+// Create a new Player (you don't need any API Key)
+const player = new Player(client);
+
+// add the trackStart event so when a song will be played this message will be sent
+player.on("trackStart", (queue, track) => queue.metadata.channel.send(`🎶 | Now playing **${track.title}**!`))
+
+client.once("ready", () => {
+    console.log("I'm ready !");
+});
+
+client.on("interactionCreate", async (interaction) => {
+    if (!interaction.isCommand()) return;
+
+    // /play track:Despacito
+    // will play "Despacito" in the voice channel
+    if (interaction.commandName === "play") {
+        if (!interaction.member.voice.channelId) return await interaction.reply({ content: "You are not in a voice channel!", ephemeral: true });
+        if (interaction.guild.me.voice.channelId && interaction.member.voice.channelId !== interaction.guild.me.voice.channelId) return await interaction.reply({ content: "You are not in my voice channel!", ephemeral: true });
+        const query = interaction.options.get("query").value;
+        const queue = player.createQueue(interaction.guild, {
+            metadata: {
+                channel: interaction.channel
+            }
+        });
+        
+        // verify vc connection
+        try {
+            if (!queue.connection) await queue.connect(interaction.member.voice.channel);
+        } catch {
+            queue.destroy();
+            return await interaction.reply({ content: "Could not join your voice channel!", ephemeral: true });
+        }
+
+        await interaction.deferReply();
+        const track = await player.search(query, {
+            requestedBy: interaction.user
+        }).then(x => x.tracks[0]);
+        if (!track) return await interaction.followUp({ content: `❌ | Track **${query}** not found!` });
+
+        queue.play(track);
+
+        return await interaction.followUp({ content: `⏱️ | Loading track **${track.title}**!` });
+    }
+});
+
+client.login(process.env.DISCORD_TOKEN);
